@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="618" viewBox="0 0 1920 618">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1390" data-name="Rectangle 1390" width="1920" height="618" transform="translate(0 6299)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f3f3f3"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <g id="Mask_Group_18" data-name="Mask Group 18" transform="translate(0 -6299)" clip-path="url(#clip-path)">
+    <g id="Group_2235" data-name="Group 2235" transform="translate(18890.414 11488.6)" opacity="0.71">
+      <path id="Path_6213" data-name="Path 6213" d="M-11529.161-4015.7s252.428-203.311,581.69-143.038,545.169,134.563,794.819,36.444,376.494-92.513,596.453-8.41,453.41,8.41,453.41,8.41v453.933h-2307.54Z" transform="translate(-7313.085 -986.267)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Group_2236" data-name="Group 2236" transform="translate(18723.414 11517.6)" opacity="0.71">
+      <path id="Path_6214" data-name="Path 6214" d="M-11410.327-4106.354s111.158-104.756,385.122-64.175,453.61,90.6,661.333,24.537,313.264-62.287,496.281-5.662,377.262,5.662,377.262,5.662v305.625h-1920Z" transform="translate(-7313.086 -986.267)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Group_2237" data-name="Group 2237" transform="translate(18352.432 11826.852) rotate(1)" opacity="0.71">
+      <path id="Path_6215" data-name="Path 6215" d="M-11410.327-4106.354s111.158-104.756,385.122-64.175,453.61,90.6,661.333,24.537,313.264-62.287,496.281-5.662,377.262,5.662,377.262,5.662v305.625h-1920Z" transform="translate(-7313.086 -986.267)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

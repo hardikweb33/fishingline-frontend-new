@@ -1,7 +1,7 @@
 var $ = jQuery;
 $(window).on('load', function() { 
  AOS.init({
-   once: true
+   // once: true
  });
 });
 
