@@ -54,7 +54,7 @@ textarea::-ms-input-placeholder{color: #000;opacity: 1}
 a{color: #000;background-color: transparent;display: inline-block;text-decoration: none;}
 a:hover{text-decoration: none;color: #D7D2CB;}
 a:visited,a:focus, a:active {text-decoration: none;outline: 0;}
-.container{max-width: 1500px; padding-left: 80px;padding-right: 80px;}
+.container{max-width: 1530px; padding-left: 80px;padding-right: 80px;}
 .container.full{max-width: 100%;padding-left: 110px;padding-right: 110px;}
 .container.inner { max-width: 1160px;}
 .font-weight-light{font-weight: 300!important}
@@ -188,7 +188,7 @@ img{max-width: 100%;width: auto;}
 	color: #fff;	
 }
 .section-header {
-    margin: 0 0 50px;
+    margin: 0 0 60px;
 }
 .shape,
 .shape-two{
@@ -209,13 +209,16 @@ img{max-width: 100%;width: auto;}
 
 
 /*header css */
-.site-header {
-    padding: 40px 0;    
+.site-header { 
     position: absolute;
     left: 0;
     right: 0;
     width: 100%;
     z-index: 3;
+}
+.header-right{
+    padding-top: 40px; 
+    padding-bottom: 40px
 }
 .menu .menu-wraper ul {
     list-style: none;
@@ -239,6 +242,7 @@ img{max-width: 100%;width: auto;}
     -o-transition: all 0.3s;   
     -ms-transition: all 0.3s;          
     transition: all 0.3s;
+    font-weight: 300;
 }
 .menu .menu-wraper ul li a:after{
 	content: "";
@@ -331,10 +335,18 @@ img{max-width: 100%;width: auto;}
 	background-repeat: no-repeat;
 	background-position: top center; 
 	background-size: contain;
+    position: absolute;
+    top: 0;
+    height: calc(100% + 390px);
+    width: 100%;
+    left: 0;
+    background-size: cover;
+    background-position: top center;
+    z-index: -1;
 }
 /*hero */
 .hero-section {
-    padding: 160px 0 80px;
+    padding: 148px 0 0px;
 }
 .hero-section .img-block .sliderimg{
 	  -webkit-transition: all 0.3s;                  
@@ -374,8 +386,11 @@ img{max-width: 100%;width: auto;}
 }
 
 /*home-img-with-txt css*/
+.home-img-with-txt{
+    margin-top: -30px;
+}
 .home-img-with-txt .img-block .img-left{
-	padding-bottom: 50px;
+	padding-bottom: 75px;
 }
 .home-img-with-txt .text-block h2{
 	margin-left: -43%;
@@ -394,13 +409,16 @@ img{max-width: 100%;width: auto;}
 }
 .home-img-with-txt .img-block .img-left .shape-bottom {
     position: absolute;
-    bottom: 70px;
-    left: -40px;
+    bottom: 100px;
+    left: -54px;
     max-width: 143px;
 }
 .home-img-with-txt.shape:before{
 	background-image: url(../images/fishlight.svg);
-    background-position: 122% top;
+    background-position: 122% 10px;
+}
+.home-img-with-txt .img-block {
+    padding-right: 75px;
 }
 
 /*Featured Products */
@@ -528,7 +546,7 @@ img{max-width: 100%;width: auto;}
 .featur-product {
     background-image: url(../images/blue-wavs.svg);
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: 0 80%;
     background-size: contain;
 }
 
@@ -570,13 +588,15 @@ img{max-width: 100%;width: auto;}
 }
 .category-sec.shape-two:after{
 	background-image: url(../images/wavw-line-blue.svg);
-    background-position: -80px 17%;
+    background-position: -40px 17%;
+    background-size: 12%;
 }
 
 /*featur-slider-sec css*/
-/* .featur-slider-sec{
-	overflow: hidden;
-} */
+.featur-slider-sec{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
 .featur-slider-sec.shape:before{
 	background-color: #0045AB;
     width: 70%;
@@ -643,9 +663,10 @@ img{max-width: 100%;width: auto;}
 .featur-slider-sec .fishshape {
     position: absolute;
     bottom: 4%;
-    left: -22%;
+    left: -18%;
     opacity: 1;
     filter: brightness(0) invert(1);
+    max-width: 430px;
 }
 .featur-slider-sec li .img-wrp{
 	width: 80px;
@@ -674,8 +695,12 @@ footer .footer-bg{
     background-color: #0055B8;
     padding: 11px 0;
 }
+.footer-bottom p{
+    letter-spacing: 0.42px;
+}
 footer .footer-title {
     font-size: 26px;
+    margin: 0 0 40px;
 }
 .footer-top ul li{
 	margin: 0 0 15px;
@@ -684,6 +709,7 @@ footer .footer-title {
     color: #3C4B61;
     font-size: 19px;
     letter-spacing: -0.38px;
+    font-weight: 500;
 }
 .footer-top ul li a:hover{
 	color: #0055B8;
@@ -771,7 +797,15 @@ footer .footer-title {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 .map .ratio::before{
-    padding-top: 35%;
+    padding-top: 30%;
+}
+
+/*about page */
+.about-header .menu .menu-wraper ul li a{
+    color: #0055B8;
+}
+.about-bg{
+    background-image: url(../images/about-bg.png);
 }
 
 /*media query */
@@ -791,6 +825,10 @@ footer .footer-title {
 	.featur-slider-sec .fishshape{
 	    max-width: 440px;
 	}
+    .home-img-with-txt.shape:before{
+        background-size: 30%;
+        background-position: 122% 30px;
+    }
 }
 @media only screen and (max-width: 1560px){
 	.home-img-with-txt.shape:before,.featur-product.shape:before{

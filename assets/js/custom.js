@@ -29,6 +29,24 @@ $( document ).ready(function() {
     slidesToScroll: 1,
     // autoplay: true
   });
+
+  $('.instagramn-slider').slick({
+    dots: false,
+    arrows: true,
+    infinite: false,
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    // autoplay: true
+  });
+
+  $('.testimonials-slider').slick({
+    dots: true,
+    arrows: false,
+    infinite: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    // autoplay: true
+  });
 });
 $(window).scroll(function() {
   if ($(this).scrollTop() > 1){  
