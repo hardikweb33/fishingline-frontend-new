@@ -35,7 +35,7 @@ $( document ).ready(function() {
     arrows: true,
     infinite: false,
     slidesToShow: 5,
-    slidesToScroll: 1,
+    slidesToScroll: 1
     // autoplay: true
   });
 
@@ -46,6 +46,18 @@ $( document ).ready(function() {
     slidesToShow: 1,
     slidesToScroll: 1,
     // autoplay: true
+  });
+  $('.about-feture-pro-slider').slick({
+    dots: false,
+    arrows: true,
+    infinite: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    // autoplay: true
+  });
+
+  $('.popup-youtube').magnificPopup({
+    type: 'iframe'
   });
 });
 $(window).scroll(function() {
