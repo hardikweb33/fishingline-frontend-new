@@ -48,18 +48,19 @@
 		    </div>
 		 </div>
 		</header>
-		<main class="cart-page">
+		<main class="checkout-page">
 			<section class="about-hero position-relative">
 				<img src="assets/images/round-text.svg" class="fcircle-shape" data-aos="zoom-in">
 				<div class="container">
 					<div class="row pe-0">
 						<div class="col-md-6" data-aos="fade-right">
-							<h1 class="mb-2">Cart</h1>
-							<p>Lorem ipsum dolor sit amet, consetetur</p>
+							<h1 class="mb-2">Checkout</h1>
+							<p>Your order is almost complete.</p>
 							<nav style="--bs-breadcrumb-divider: '>';" class="breadcrumb-wrp" aria-label="breadcrumb">
 							  <ol class="breadcrumb">
 							    <li class="breadcrumb-item"><a href="#">Home</a></li>
 							    <li class="breadcrumb-item">Products</li>
+							    <li class="breadcrumb-item">Cart</li>
 							    <li class="breadcrumb-item active" aria-current="page">Cart</li>
 							  </ol>
 							</nav>
@@ -85,148 +86,179 @@
 					</div>
 				</div>
 			</section>
-			<section class="cart-sec section-padding shape shape-two" data-aos="fade-up">
+			<section class="checkout-sec shape shape-two" data-aos="fade-up">
 				<div class="container">	
-					<div class="cart-table">
-						<div class="cart-header"> 	
-							<div class="row mx-0">
-								<div class="col-md-5">
-										<h6 class="mb-0 text-white">Product</h6>	
-								</div>			
-								<div class="col-md-7">
-									<div class="row">
-										<div class="col-md-3">	
-											<h6 class="mb-0 text-white">Price</h6>
-										</div>	
-										<div class="col-md-3">	
-											<h6 class="mb-0 text-white">Weight</h6>
+					<div class="row gx-xl-5">
+						<div class="col-md-8 left-block">							
+							<div class="row mb-md-4 mb-3">
+								<div class="col-md-6 mb-md-2">
+									<div class="have-account input">
+										Already have an account? <a href="#">Click here to login</a>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<form class="coupon">
+										<div class="input-group flex-nowrap">
+											<input type="text" name="" placeholder="Enter Coupon Code" class="ps-xxl-5">
+											<input type="submit" name="" class="btn-secondary" value="Apply Coupon">
 										</div>
-										<div class="col-md-3">	
-											<h6 class="mb-0 text-white">Quantity</h6>
+									</form>
+								</div>
+							</div>
+							<h5 class="fw-semibold">Billing Details</h5>
+							<form>
+								<div class="row">
+									<div class="col-md-6 mb-3">
+										<input type="text" name="" placeholder="First Name *" required>
+									</div>
+									<div class="col-md-6 mb-3">
+										<input type="text" name="" placeholder="Last Name *" required>
+									</div>
+									<div class="col-md-6 mb-3">
+										<input type="text" name="" placeholder="Address *" required>
+									</div>
+									<div class="col-md-6 mb-3">
+										<input type="text" name="" placeholder="Address 2" required>
+									</div> 
+									<div class="col-md-6 mb-3">
+										<input type="text" name="" placeholder="United States" required>
+									</div>
+									<div class="col-md-6 mb-3">
+										<input type="text" name="" placeholder="City/Town *" required>
+									</div>
+									<div class="col-md-6 mb-3">
+										<input type="text" name="" placeholder="Postcode/ZIP *" required>
+									</div>
+									<div class="col-md-6 mb-3">
+										<input type="text" name="" placeholder="Phone *" required>
+									</div>
+									<div class="col-md-6 mb-3">
+										<input type="text" name="" placeholder="Company Name" required>
+									</div>
+									<div class="col-md-6 mb-3">
+										<input type="text" name="" placeholder="Email Address *" required>
+									</div>
+									<div class="col-md-12">
+										<textarea placeholder="Additional Information..."></textarea>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="col-md-4 right-block">
+							<div class="order-detail">
+								<div class="order-detail-header pb-3 mb-3">
+									<div class="row justify-content-between mx-0">
+										<h4 class="mb-0 fw-semibold col-6">Order Details</h4>
+										<h4 class="mb-0 fw-semibold col-6 text-end">Subtotal</h4>
+									</div>
+								</div>
+								<div class="order-detail-body pb-md-4 mb-3 mb-4">
+									<div class="row align-items-center mx-0">
+										<div class="col-md-3 pe-0">
+											<a href="#" class="pro-img">
+												<img src="assets/images/insta-3.png">
+											</a>
 										</div>
-										<div class="col-md-3">	
-											<h6 class="mb-0 text-white">Total</h6>
+										<div class="col-md-4 ps-md-4 pe-0">
+											<a href="#" class="h6 color-default mb-0 title">Salmon Fish</a>
+										</div>
+										<div class="col-md-2 text-center">
+											<h6 class="mb-0 size mb-0">x1</h6>
+										</div>
+										<div class="col-md-3 text-end">
+											<h5 class="color-default price mb-0">$7.32</h5>
+										</div>
+									</div>
+									<div class="row align-items-center mx-0">
+										<div class="col-md-3 pe-0">
+											<a href="#" class="pro-img">
+												<img src="assets/images/insta-3.png">
+											</a>
+										</div>
+										<div class="col-md-4 ps-md-4 pe-0">
+											<a href="#" class="h6 color-default mb-0 title">Salmon Fish</a>
+										</div>
+										<div class="col-md-2 text-center">
+											<h6 class="mb-0 size mb-0">x1</h6>
+										</div>
+										<div class="col-md-3 text-end">
+											<h5 class="color-default price mb-0">$7.32</h5>
+										</div>
+									</div>
+									<div class="row align-items-center mx-0">
+										<div class="col-md-3 pe-0">
+											<a href="#" class="pro-img">
+												<img src="assets/images/insta-3.png">
+											</a>
+										</div>
+										<div class="col-md-4 ps-md-4 pe-0">
+											<a href="#" class="h6 color-default mb-0 title">Salmon Fish</a>
+										</div>
+										<div class="col-md-2 text-center">
+											<h6 class="mb-0 size mb-0">x1</h6>
+										</div>
+										<div class="col-md-3 text-end">
+											<h5 class="color-default price mb-0">$7.32</h5>
+										</div>
+									</div>
+								</div> 
+								<div class="order-detail-foot">
+									<div class="row justify-content-between subtotal mx-0">
+										<div class="col-auto">
+											<h6 class="mb-0 color-default">Subtotal</h6>
+										</div>
+										<div class="col-auto">
+											<h6 class="mb-0 color-default">$7.32</h6>
+										</div>
+									</div>
+									<div class="row justify-content-between tax mx-0">
+										<div class="col-auto">
+											<h6 class="mb-0 color-default">Taxes</h6>
+										</div>
+										<div class="col-auto">
+											<h6 class="mb-0 color-default">$7.32</h6>
+										</div>
+									</div>
+									<div class="row justify-content-between mx-0">
+										<div class="col-auto">
+											<h6 class="mb-0 f-25">Total</h6>
+										</div>
+										<div class="col-auto">
+											<h6 class="mb-0 f-25">$7.32</h6>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="cart-body mb-lg-5 mb-4">	
-							<div class="row align-items-center mx-0">
-								<div class="col-md-5">	
-									<div class="d-flex align-items-center">	
-										<a href="#" class="delete me-xl-4 me-3 color-default"><i class="fas fa-trash"></i></a>
-										<a href="#" class="pro-img">	
-											<img src="assets/images/insta-3.png">
-										</a>
-										<a href="" class="product-title color-default fw-semibold">Salmon Fish</a>
+						<div class="col-md-4 right-block ms-auto">							
+							<div class="payment-box input mb-xl-5 mb-4 bg-white">
+								<h4 class="mb-lg-4">Payment Method</h4>
+								<form>
+									<div class="radio-btn d-flex">
+										<input type="radio" name="payment">
+										<label class="fw-semibold ms-md-3 ms-2">Direct Bank Transfer</label>
 									</div>
-								</div>			
-								<div class="col-md-7">
-									<div class="row align-items-center">
-										<div class="col-md-3 fw-semibold">	
-											$7.32
-										</div>	
-										<div class="col-md-3 fw-semibold">
-											1.5 lb	
-										</div>
-										<div class="col-md-3">	
-											<div class="qty position-relative bg-white">
-												<span class="minus"><i class="fas fa-minus"></i></span>
-												<input type="number" id="quantity" class="bg-white" name="quantity" value="1" min="1" max="100">												
-												<span class="plus"><i class="fas fa-plus"></i></span>
-											</div>
-										</div>
-										<div class="col-md-3 fw-bold">
-											$7.32	
-										</div>
+									<div class="radio-btn d-flex">
+										<input type="radio" name="payment">
+										<label class="fw-semibold ms-md-3 ms-2">Cash on Delivery</label>
 									</div>
-								</div>
+									<div class="radio-btn d-flex">
+										<input type="radio" name="payment" checked="">
+										<label class="fw-semibold ms-md-3 ms-2">Online Getway</label>
+									</div>
+								</form>
+								<ul class="d-flex flex-wrap list-unstyled p-0 mb-0 payment-icon ms-4">
+									<a href="#" class="px-1"><img src="assets/images/gpay.png"></a>
+									<a href="#" class="px-1"><img src="assets/images/express.png"></a>
+									<a href="#" class="px-1"><img src="assets/images/come.png"></a>
+									<a href="#" class="px-1"><img src="assets/images/paypal.png"></a>
+									<a href="#" class="px-1"><img src="assets/images/visa.png"></a>
+								</ul>
 							</div>
-							<div class="row align-items-center mx-0">
-								<div class="col-md-5">	
-									<div class="d-flex align-items-center">	
-										<a href="#" class="delete me-xl-4 me-3 color-default"><i class="fas fa-trash"></i></a>
-										<a href="#" class="pro-img">	
-											<img src="assets/images/insta-3.png">
-										</a>
-										<a href="" class="product-title color-default fw-semibold">Salmon Fish</a>
-									</div>
-								</div>			
-								<div class="col-md-7">
-									<div class="row align-items-center">
-										<div class="col-md-3 fw-semibold">	
-											$7.32
-										</div>	
-										<div class="col-md-3 fw-semibold">
-											1.5 lb	
-										</div>
-										<div class="col-md-3">	
-											<div class="qty position-relative bg-white">
-												<span class="minus"><i class="fas fa-minus"></i></span>
-												<input type="number" id="quantity" class="bg-white" name="quantity" value="1" min="1" max="100">												
-												<span class="plus"><i class="fas fa-plus"></i></span>
-											</div>
-										</div>
-										<div class="col-md-3 fw-bold">
-											$7.32	
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="row align-items-center mx-0">
-								<div class="col-md-5">	
-									<div class="d-flex align-items-center">	
-										<a href="#" class="delete me-xl-4 me-3 color-default"><i class="fas fa-trash"></i></a>
-										<a href="#" class="pro-img">	
-											<img src="assets/images/insta-3.png">
-										</a>
-										<a href="" class="product-title color-default fw-semibold">Salmon Fish</a>
-									</div>
-								</div>			
-								<div class="col-md-7">
-									<div class="row align-items-center">
-										<div class="col-md-3 fw-semibold">	
-											$7.32
-										</div>	
-										<div class="col-md-3 fw-semibold">
-											1.5 lb	
-										</div>
-										<div class="col-md-3">	
-											<div class="qty position-relative bg-white">
-												<span class="minus"><i class="fas fa-minus"></i></span>
-												<input type="number" id="quantity" class="bg-white" name="quantity" value="1" min="1" max="100">												
-												<span class="plus"><i class="fas fa-plus"></i></span>
-											</div>
-										</div>
-										<div class="col-md-3 fw-bold">
-											$7.32	
-										</div>
-									</div>
-								</div>
+							<div class="text-end">
+								<a href="#" class="btn-secondary process-btn">Proceed to Checkout<i class="fas fa-long-arrow-alt-right ms-3"></i></a>
 							</div>
 						</div>
-						<div class="cart-footer">
-							<div class="row justify-content-between mx-0">
-								<div class="col-auto"><h5 class="fw-semibold mb-0 color-default">Subtotal</h5>
-								</div>
-								<div class="col-auto"><h5 class="fw-semibold mb-0 color-default">$21.96</h5></div>
-							</div>
-							<div class="row  justify-content-between mx-0">
-								<div class="col-auto"><h5 class="fw-semibold mb-0 color-default">Taxes</h5>
-								</div>
-								<div class="col-auto"><h5 class="fw-semibold mb-0 color-default">$3.00</h5></div>
-							</div>
-							<div class="row  justify-content-between mx-0">
-								<div class="col-auto"><h3 class="fw-bold mb-0">Total</h3>
-								</div>
-								<div class="col-auto"><h3 class="fw-bold mb-0">$3.00</h3></div>
-							</div>
-						</div>
-					</div>
-					<div class="btn-wrp d-flex justify-content-between flex-wrap align-items-center">
-						<a href="#" class="btn shopping-btn">Continue Shopping</a>
-						<a href="#" class="btn-secondary process-btn">Proceed to Checkout<i class="fas fa-long-arrow-alt-right ms-3"></i></a>
 					</div>
 				</div>
 			</section>
