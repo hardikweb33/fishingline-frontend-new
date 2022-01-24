@@ -66,9 +66,6 @@ $( document ).ready(function() {
   $('.modal').on('shown.bs.modal', function (e) {
     $('.product-gallary-slider').slick('setPosition');
   })
-  $('.popup-youtube').magnificPopup({
-    type: 'iframe'
-  });
     $('.qty .minus').click(function () {
       var $input = $(this).parent().find('input');
       var count = parseInt($input.val()) - 1;
@@ -83,7 +80,17 @@ $( document ).ready(function() {
       $input.change();
       return false;
     });
-
+  $("header .menu-icon").click(function(){
+    $("header .menu").addClass("open");
+    $("body").addClass("menu-open");
+  });
+  $("header .menu-close").click(function(){
+    $("header .menu").removeClass("open");
+    $("body").removeClass("menu-open");
+  });
+  $('.popup-youtube').magnificPopup({
+    type: 'iframe'
+  });
 });
 $(window).scroll(function() {
   if ($(this).scrollTop() > 1){  
