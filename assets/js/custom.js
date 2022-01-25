@@ -81,12 +81,9 @@ $( document ).ready(function() {
       return false;
     });
   $("header .menu-icon").click(function(){
-    $("header .menu").addClass("open");
-    $("body").addClass("menu-open");
-  });
-  $("header .menu-close").click(function(){
-    $("header .menu").removeClass("open");
-    $("body").removeClass("menu-open");
+    $("header .menu").toggleClass("open");
+    $(this).toggleClass("open");
+    $("html").toggleClass("menu-open");
   });
   $('.popup-youtube').magnificPopup({
     type: 'iframe'

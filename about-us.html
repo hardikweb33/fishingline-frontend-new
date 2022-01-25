@@ -24,17 +24,22 @@
 		<header class="site-header about-header"  data-aos="fade-up">
 		 <div class="container">
 		    <div class="row align-items-center justify-content-between ">
-		       	<div class="header-logo col-md-3">
+		       	<div class="header-logo col-md-3 col-7 ">
+		       		<a href="javascript:void(0);" class="menu-icon">
+			    		<span class="first"></span>
+			    		<span class="second"></span>
+			    	</a>
 					<a href="assets/">
-						<img src="assets/images/logo-blue.svg" alt="">
+						<img src="assets/images/logo-blue.svg" alt="" class="d-md-block d-none">
+						<img src="assets/images/logo.svg" alt="" class="d-md-none d-block">
 					</a>
 		       	</div>
-		       	<div class="header-right col-md-9 d-flex align-items-center">
+		       	<div class="header-right col-md-9 col-5 d-flex align-items-center">
 		       		<div class="menu">
 				       	<div class="menu-wraper">
 				       		<ul>
-				       			<li><a href="/index.html">home</a></li>
-				       			<li class="active"><a href="/aboutus.html">About Us</a></li>
+				       			<li class="active"><a href="/index.html">home</a></li>
+				       			<li><a href="/about-us.html">About Us</a></li>
 				       			<li><a href="/shop.html">Shop</a></li>
 				       			<li><a href="/categories.html">Categories</a></li>
 				       			<li><a href="/contactus.html">Contact Us</a></li>
@@ -56,7 +61,7 @@
 				<div class="container">
 					<div class="row align-items-center">
 						<div class="col-md-6 pb-md-5" data-aos="fade-right">
-							<h1>About Us</h1>
+							<h1 class="text-uppercase">About Us</h1>
 							<p>At Fishing Line, we're committed to everything quality.<br> Get quality products that yield quality reviews.</p>
 						</div>
 						<div class="col-md-6" data-aos="fade-left">
@@ -112,8 +117,8 @@
 					<div class="row align-items-center">
 						<div class="col-md-5">
 							<img src="assets/images/arrow-shape.svg" alt="" class="mb-2">
-							<h2>Couldn't be more fresh.</h2>
-							<p>Our fleet of refrigerated trucks are especially designed to preserve the freshness of your order. Be confident in what you receive, and in case something goes wrong, we'll easily compensate.</p>
+							<h2>Our promise to you</h2>
+							<p>We're passionate about delivering the shopping experience you dream of. Find out why our customers keep coming back for more.</p>
 						</div>
 						<div class="col-md-7 video-block">
 							<div class="video-wrapper position-relative">
@@ -242,7 +247,7 @@
 						<div>
 							<div class="row align-items-center">
 								<div class="col-md-4 text-white text-block" data-aos="fade-left">
-									<h2>Featured Product</h2>
+									<h2 class="fw-normal">Featured Product</h2>
 									<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et</p>
 									<a href="#" class="btn">Add to Cart</a>
 								</div>
@@ -252,19 +257,19 @@
 								<div class="col-md-4 text-block"  data-aos="fade-right">
 									<ul class="feture-service ps-0">
 										<li class="d-flex align-items-center">
-											<div class="icon me-xl-0 me-2">
+											<div class="icon me-xl-3 me-2">
 												<img src="assets/images/shopping-bag.png">
 											</div>
 											<h6 class="mb-0 text-white fw-semibold">Easy access ordering</h6>
 										</li>
 										<li class="d-flex align-items-center">
-											<div class="icon me-xl-0 me-2">
+											<div class="icon me-xl-3 me-2">
 												<img src="assets/images/details-sky.svg">
 											</div>
 											<h6 class="mb-0 text-white fw-semibold">Customized attention to detail</h6>
 										</li>
 										<li class="d-flex align-items-center">
-											<div class="icon me-xl-0 me-2">
+											<div class="icon me-xl-3 me-2">
 												<img src="assets/images/delivery-truck-sky.svg">
 											</div>
 											<h6 class="mb-0 text-white fw-semibold">Quick delivery for ultimate freshness</h6>
@@ -325,23 +330,30 @@
 				</div>
 			</section>
 		</main>
-				<footer  data-aos="fade-up">
+		<footer  data-aos="fade-up">
 			<div class="footer-top position-relative fw-medium">
 				<div class="container">
 				<div class="row">
-					<div class="col-md-4">
+					<div class="col-md-4 footer-logo-wrp">
 						<a href="#" class="footer-logo mb-lg-4 mb-3">
 							<img src="assets/images/logo.svg">
 						</a>
 						<div>
-							<ul class="list-unstyled p-0 m-0">
-								<li><a href="tel:855-222-5555">855-222-5555</a></li>
-								<li><a href="mailto:fishingline@info.com">fishingline@info.com</a></li>
-								<li><a href="https://www.google.co.in/maps/search/715+Mandy+Street,+Manhattan,+NY+05803/@21.2205568,72.8465408,12z">715 Mandy Street, Manhattan, <br>NY 05803</a></li>
+							<ul class="list-unstyled p-0 m-0 contact-detail">
+								<li><a href="tel:855-222-5555"><span class="icon d-md-none d-block"><i class="fas fa-phone-alt"></i></span>855-222-5555</a></li>
+								<li><a href="mailto:fishingline@info.com"><span class="icon d-md-none d-block"><i class="fas fa-envelope"></i></span>fishingline@info.com</a></li>
+								<li><a href="https://www.google.co.in/maps/search/715+Mandy+Street,+Manhattan,+NY+05803/@21.2205568,72.8465408,12z"><span class="icon d-md-none d-block"><i class="fas fa-map-marker-alt"></i></span>715 Mandy Street, Manhattan, <br>NY 05803</a></li>
+								<li class="d-md-block d-none">Copyright © 2021 Fishing Line. All rights reserved.</li>
+							</ul>
+							<ul class="social-icon list-unstyled col-auto mb-0 d-md-none d-block">
+								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+								<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
 							</ul>
 						</div>
 					</div>
-					<div class="col-md-5">
+					<div class="col-md-5 px-0 mb-md-0 mb-3">
 						<div class="row">
 							<div class="col-6">
 								<h6 class="footer-title">Company</h6>
@@ -367,7 +379,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 d-flex flex-column align-items-end">
+					<div class="col-md-3 d-flex flex-column align-md-items-end px-md-3 px-0">
 						<h6 class="footer-title">Payment Method</h6>
 						<ul class="d-flex flex-wrap list-unstyled p-0 m-0">
 							<a href="#" class="px-1 mb-1"><img src="assets/images/gpay.png"></a>
@@ -383,10 +395,11 @@
 			<div class="footer-bottom">
 				<div class="container">
 					<div class="row align-items-center justify-content-between">
-						<p class="text-white mb-0 col-auto fw-light small">
+						<p class="text-white mb-0 col-12 fw-light small d-md-none d-block mb-md-0 mb-2 text-md-start text-center">
 							Copyright © 2021 Fishing Line. All rights reserved.
 						</p>
-						<ul class="social-icon list-unstyled col-auto mb-0">
+						<div class="col-auto footer-bottom-img text-md-start text-center mx-md-0 mx-auto"><img src="assets/images/footer-bottom-logo.png"></div>
+						<ul class="social-icon list-unstyled col-auto mb-0 d-md-block d-none">
 							<li><a href="#"><i class="fab fa-instagram"></i></a></li>
 							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
 							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
