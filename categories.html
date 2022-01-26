@@ -21,13 +21,17 @@
     <body>
 		<header class="site-header about-header"  data-aos="fade-up">
 		 <div class="container">
-		    <div class="row align-items-center justify-content-between mx-0 ">
-		       	<div class="header-logo col-md-3">
+		    <div class="row align-items-center justify-content-between">
+		    	<a href="javascript:void(0);" class="menu-icon">
+		    		<span class="first"></span>
+		    		<span class="second"></span>
+		    	</a>
+		       	<div class="header-logo col-md-3 col-7">
 					<a href="assets/">
 						<img src="assets/images/logo.svg" alt="">
 					</a>
 		       	</div>
-		       	<div class="header-right col-md-9 d-flex align-items-center">
+		       	<div class="header-right col-md-9 col-5 d-flex align-items-center">
 		       		<div class="menu">
 				       	<div class="menu-wraper">
 				       		<ul>
@@ -39,7 +43,7 @@
 				       		</ul>
 				       	</div>
 			       </div>
-			       <ul class="list-unstyled header-icons ms-auto">
+			       <ul class="list-unstyled header-icons ms-auto mb-0">
 			       		<li class="serch-icon"><a href=""><img src="assets/images/search.svg"></a></li>
 			       		<li class="user"><a href=""><img src="assets/images/user.svg"></a></li>
 			       		<li  class="cart position-relative"><a href=""><img src="assets/images/cart.svg"><span>1</span></a></li>
@@ -90,8 +94,8 @@
 			<section class="category-pro position-relative" data-aos="fade-up">
 				<div class="top-shape"></div>
 				<div class="container">
-					<div class="row">
-						<div class="col-md-4">
+					<div class="category-pro-slider">
+						<div>
 							<div class="category-pro-box text-center">
 								<div class="img-box">
 									<img src="assets/images/fishdish.png">
@@ -103,7 +107,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4">
+						<div>
 							<div class="category-pro-box text-center">
 								<div class="img-box">
 									<img src="assets/images/fishdish.png">
@@ -115,7 +119,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4">
+						<div>
 							<div class="category-pro-box text-center">
 								<div class="img-box">
 									<img src="assets/images/fishdish.png">
@@ -137,8 +141,8 @@
 						<h2>Featured Products</h2>
 						<p>Our dedicated team brings you the freshest fish products, cut and packaged to your specifications.</p>
 					</div>
-					<div class="row" data-aos="zoom-in">
-						<ul class="nav nav-tabs border-0 mb-lg-5 pb-xxl-3 justify-content-center" id="myTab" role="tablist">
+					<div class="row justify-content-center aos-init aos-animate" data-aos="zoom-in">
+						<ul class="nav nav-tabs border-0 mb-5 pb-xxl-3 justify-content-center px-0" id="myTab" role="tablist">
 							<li class="nav-item" role="presentation">
 							<button class="nav-link active" id="FreshFish-tab" data-bs-toggle="tab" data-bs-target="#FreshFish" type="button" role="tab" aria-controls="FreshFish" aria-selected="true">Fresh Fish</button>
 							</li>
@@ -154,74 +158,87 @@
 						</ul>
 						<div class="tab-content" id="myTabContent">
 							<div class="tab-pane fade show active" id="FreshFish" role="tabpanel" aria-labelledby="FreshFish-tab">
-								<div class="row mb-lg-5">
-									<div class="col-xl-3 col-md-6 mb-md-5 mb-4">
+								<div class="row mb-xl-5">
+									<div class="col-xl-3 col-lg-3 col-md-6 mb-md-5 mb-4">
 										<div class="featur-probox">
-											<span class="label">new</span>
+											
+											
 											<div class="img-wrapper">
 												<img src="assets/images/fresh-salmon-fillet.png" class="state-img" title="" alt="">
 												<img src="assets/images/fresh-salmon-fillet-hover.png" class="hover-img" title="" alt="">
 											</div>
-											<div class="featur-pro-content pt-0">
-												<h5>Salmon Fish</h5>
-												<div class="row">
-													<div class="col-6 price">$7.32<span class="text-uppercade">/ LB</span></div>
-													<div class="col-6 ps-0">
-														<a href="#" class="btn"><img src="assets/images/shoping-cart.png">Add to Cart</a>
+											<div class="featur-pro-content pt-md-0">
+												<span class="label">new</span>
+												<div class="featur-pro-content-bottom">
+													<h5>Salmon Fish</h5>
+													<div class="row align-items-center">
+														<div class="col-md-6 price mb-md-0 mb-2">$7.32<span class="text-uppercade">/ LB</span></div>
+														<div class="col-md-6 ps-md-0 text-md-end">
+															<a href="#" class="btn"><img src="assets/images/shoping-cart.png">Add to Cart</a>
+														</div>
 													</div>
 												</div>
 											</div>
 										</div>
 									</div>
-									<div class="col-xl-3 col-md-6 mb-md-5 mb-4">
-										<div class="featur-probox">
-											<span class="label">new</span>
+									<div class="col-xl-3 col-lg-3 col-md-6 mb-md-5 mb-4">
+										<div class="featur-probox">											
+											
 											<div class="img-wrapper">
 												<img src="assets/images/fresh-salmon-fillet.png" class="state-img" title="" alt="">
 												<img src="assets/images/fresh-salmon-fillet-hover.png" class="hover-img" title="" alt="">
 											</div>
-											<div class="featur-pro-content pt-0">
-												<h5>Salmon Fish</h5>
-												<div class="row">
-													<div class="col-6 price">$7.32<span class="text-uppercade">/ LB</span></div>
-													<div class="col-6 ps-0">
-														<a href="#" class="btn"><img src="assets/images/shoping-cart.png">Add to Cart</a>
+											<div class="featur-pro-content pt-md-0">
+												<span class="label">new</span>
+												<div class="featur-pro-content-bottom">
+													<h5>Salmon Fish</h5>
+													<div class="row align-items-center">
+														<div class="col-md-6 price mb-md-0 mb-2">$7.32<span class="text-uppercade">/ LB</span></div>
+														<div class="col-md-6 ps-md-0 text-md-end">
+															<a href="#" class="btn"><img src="assets/images/shoping-cart.png">Add to Cart</a>
+														</div>
 													</div>
 												</div>
 											</div>
 										</div>
 									</div>
-									<div class="col-xl-3 col-md-6 mb-md-5 mb-4">
-										<div class="featur-probox">
-											<span class="label">new</span>
+									<div class="col-xl-3 col-lg-3 col-md-6 mb-md-5 mb-4">
+										<div class="featur-probox">											
+											
 											<div class="img-wrapper">
 												<img src="assets/images/fresh-salmon-fillet.png" class="state-img" title="" alt="">
 												<img src="assets/images/fresh-salmon-fillet-hover.png" class="hover-img" title="" alt="">
 											</div>
-											<div class="featur-pro-content pt-0">
-												<h5>Salmon Fish</h5>
-												<div class="row">
-													<div class="col-6 price">$7.32<span class="text-uppercade">/ LB</span></div>
-													<div class="col-6 ps-0">
-														<a href="#" class="btn"><img src="assets/images/shoping-cart.png">Add to Cart</a>
+											<div class="featur-pro-content pt-md-0">
+												<span class="label">new</span>
+												<div class="featur-pro-content-bottom">
+													<h5>Salmon Fish</h5>
+													<div class="row align-items-center">
+														<div class="col-md-6 price mb-md-0 mb-2">$7.32<span class="text-uppercade">/ LB</span></div>
+														<div class="col-md-6 ps-md-0 text-md-end">
+															<a href="#" class="btn"><img src="assets/images/shoping-cart.png">Add to Cart</a>
+														</div>
 													</div>
 												</div>
 											</div>
 										</div>
 									</div>
-									<div class="col-xl-3 col-md-6 mb-md-5 mb-4">
-										<div class="featur-probox">
-											<span class="label">new</span>
+									<div class="col-xl-3 col-lg-3 col-md-6 mb-md-5 mb-4">
+										<div class="featur-probox">											
+											
 											<div class="img-wrapper">
 												<img src="assets/images/fresh-salmon-fillet.png" class="state-img" title="" alt="">
 												<img src="assets/images/fresh-salmon-fillet-hover.png" class="hover-img" title="" alt="">
 											</div>
-											<div class="featur-pro-content pt-0">
-												<h5>Salmon Fish</h5>
-												<div class="row">
-													<div class="col-6 price">$7.32<span class="text-uppercade">/ LB</span></div>
-													<div class="col-6 ps-0">
-														<a href="#" class="btn"><img src="assets/images/shoping-cart.png">Add to Cart</a>
+											<div class="featur-pro-content pt-md-0">
+												<span class="label">new</span>
+												<div class="featur-pro-content-bottom">
+													<h5>Salmon Fish</h5>
+													<div class="row align-items-center">
+														<div class="col-md-6 price mb-md-0 mb-2">$7.32<span class="text-uppercade">/ LB</span></div>
+														<div class="col-md-6 ps-md-0 text-md-end">
+															<a href="#" class="btn"><img src="assets/images/shoping-cart.png">Add to Cart</a>
+														</div>
 													</div>
 												</div>
 											</div>
@@ -233,74 +250,82 @@
 								</div>
 							</div>
 							<div class="tab-pane fade" id="Salmon" role="tabpanel" aria-labelledby="Salmon-tab">
-								<div class="row mb-lg-5">
-									<div class="col-xl-3 col-md-6 mb-md-5 mb-4">
-										<div class="featur-probox">
-											<span class="label">new</span>
+								<div class="row mb-xl-5 mb-4">
+									<div class="col-xl-3 col-lg-3 col-md-6 mb-md-5 mb-4">
+										<div class="featur-probox">									
 											<div class="img-wrapper">
 												<img src="assets/images/fresh-salmon-fillet.png" class="state-img" title="" alt="">
 												<img src="assets/images/fresh-salmon-fillet-hover.png" class="hover-img" title="" alt="">
 											</div>
-											<div class="featur-pro-content pt-0">
-												<h5>Salmon Fish</h5>
-												<div class="row">
-													<div class="col-6 price">$7.32<span class="text-uppercade">/ LB</span></div>
-													<div class="col-6 ps-0">
-														<a href="#" class="btn"><img src="assets/images/shoping-cart.png">Add to Cart</a>
+											<div class="featur-pro-content pt-md-0">
+												<span class="label">new</span>
+												<div class="featur-pro-content-bottom">
+													<h5>Salmon Fish</h5>
+													<div class="row align-items-center">
+														<div class="col-md-6 price mb-md-0 mb-2">$7.32<span class="text-uppercade">/ LB</span></div>
+														<div class="col-md-6 ps-md-0 text-md-end">
+															<a href="#" class="btn"><img src="assets/images/shoping-cart.png">Add to Cart</a>
+														</div>
 													</div>
 												</div>
 											</div>
 										</div>
 									</div>
-									<div class="col-xl-3 col-md-6 mb-md-5 mb-4">
-										<div class="featur-probox">
-											<span class="label">new</span>
+									<div class="col-xl-3 col-lg-3 col-md-6 mb-md-5 mb-4">
+										<div class="featur-probox">											
 											<div class="img-wrapper">
 												<img src="assets/images/fresh-salmon-fillet.png" class="state-img" title="" alt="">
 												<img src="assets/images/fresh-salmon-fillet-hover.png" class="hover-img" title="" alt="">
 											</div>
-											<div class="featur-pro-content pt-0">
-												<h5>Salmon Fish</h5>
-												<div class="row">
-													<div class="col-6 price">$7.32<span class="text-uppercade">/ LB</span></div>
-													<div class="col-6 ps-0">
-														<a href="#" class="btn"><img src="assets/images/shoping-cart.png">Add to Cart</a>
+											<div class="featur-pro-content pt-md-0">
+												<span class="label">new</span>
+												<div class="featur-pro-content-bottom">
+													<h5>Salmon Fish</h5>
+													<div class="row align-items-center">
+														<div class="col-md-6 price mb-md-0 mb-2">$7.32<span class="text-uppercade">/ LB</span></div>
+														<div class="col-md-6 ps-md-0 text-md-end">
+															<a href="#" class="btn"><img src="assets/images/shoping-cart.png">Add to Cart</a>
+														</div>
 													</div>
 												</div>
 											</div>
 										</div>
 									</div>
-									<div class="col-xl-3 col-md-6 mb-md-5 mb-4">
-										<div class="featur-probox">
-											<span class="label">new</span>
+									<div class="col-xl-3 col-lg-3 col-md-6 mb-md-5 mb-4">
+										<div class="featur-probox">											
 											<div class="img-wrapper">
 												<img src="assets/images/fresh-salmon-fillet.png" class="state-img" title="" alt="">
 												<img src="assets/images/fresh-salmon-fillet-hover.png" class="hover-img" title="" alt="">
 											</div>
-											<div class="featur-pro-content pt-0">
-												<h5>Salmon Fish</h5>
-												<div class="row">
-													<div class="col-6 price">$7.32<span class="text-uppercade">/ LB</span></div>
-													<div class="col-6 ps-0">
-														<a href="#" class="btn"><img src="assets/images/shoping-cart.png">Add to Cart</a>
+											<div class="featur-pro-content pt-md-0">
+												<span class="label">new</span>
+												<div class="featur-pro-content-bottom">
+													<h5>Salmon Fish</h5>
+													<div class="row align-items-center">
+														<div class="col-md-6 price mb-md-0 mb-2">$7.32<span class="text-uppercade">/ LB</span></div>
+														<div class="col-md-6 ps-md-0 text-md-end">
+															<a href="#" class="btn"><img src="assets/images/shoping-cart.png">Add to Cart</a>
+														</div>
 													</div>
 												</div>
 											</div>
 										</div>
 									</div>
-									<div class="col-xl-3 col-md-6 mb-md-5 mb-4">
-										<div class="featur-probox">
-											<span class="label">new</span>
+									<div class="col-xl-3 col-lg-3 col-md-6 mb-md-5 mb-4">
+										<div class="featur-probox">											
 											<div class="img-wrapper">
 												<img src="assets/images/fresh-salmon-fillet.png" class="state-img" title="" alt="">
 												<img src="assets/images/fresh-salmon-fillet-hover.png" class="hover-img" title="" alt="">
 											</div>
-											<div class="featur-pro-content pt-0">
-												<h5>Salmon Fish</h5>
-												<div class="row">
-													<div class="col-6 price">$7.32<span class="text-uppercade">/ LB</span></div>
-													<div class="col-6 ps-0">
-														<a href="#" class="btn"><img src="assets/images/shoping-cart.png">Add to Cart</a>
+											<div class="featur-pro-content pt-md-0">
+												<span class="label">new</span>
+												<div class="featur-pro-content-bottom">
+													<h5>Salmon Fish</h5>
+													<div class="row align-items-center">
+														<div class="col-md-6 price mb-md-0 mb-2">$7.32<span class="text-uppercade">/ LB</span></div>
+														<div class="col-md-6 ps-md-0 text-md-end">
+															<a href="#" class="btn"><img src="assets/images/shoping-cart.png">Add to Cart</a>
+														</div>
 													</div>
 												</div>
 											</div>
@@ -312,74 +337,82 @@
 								</div>
 							</div>
 							<div class="tab-pane fade" id="Dips" role="tabpanel" aria-labelledby="Dips-tab">
-								<div class="row mb-lg-5">
-									<div class="col-xl-3 col-md-6 mb-md-5 mb-4">
-										<div class="featur-probox">
-											<span class="label">new</span>
+								<div class="row mb-xl-5 mb-4">
+									<div class="col-xl-3 col-lg-3 col-md-6 mb-md-5 mb-4">
+										<div class="featur-probox">											
 											<div class="img-wrapper">
 												<img src="assets/images/fresh-salmon-fillet.png" class="state-img" title="" alt="">
 												<img src="assets/images/fresh-salmon-fillet-hover.png" class="hover-img" title="" alt="">
 											</div>
-											<div class="featur-pro-content pt-0">
-												<h5>Salmon Fish</h5>
-												<div class="row">
-													<div class="col-6 price">$7.32<span class="text-uppercade">/ LB</span></div>
-													<div class="col-6 ps-0">
-														<a href="#" class="btn"><img src="assets/images/shoping-cart.png">Add to Cart</a>
+											<div class="featur-pro-content pt-md-0">
+												<span class="label">new</span>
+												<div class="featur-pro-content-bottom">
+													<h5>Salmon Fish</h5>
+													<div class="row align-items-center">
+														<div class="col-md-6 price mb-md-0 mb-2">$7.32<span class="text-uppercade">/ LB</span></div>
+														<div class="col-md-6 ps-md-0 text-md-end">
+															<a href="#" class="btn"><img src="assets/images/shoping-cart.png">Add to Cart</a>
+														</div>
 													</div>
 												</div>
 											</div>
 										</div>
 									</div>
-									<div class="col-xl-3 col-md-6 mb-md-5 mb-4">
-										<div class="featur-probox">
-											<span class="label">new</span>
+									<div class="col-xl-3 col-lg-3 col-md-6 mb-md-5 mb-4">
+										<div class="featur-probox">											
 											<div class="img-wrapper">
 												<img src="assets/images/fresh-salmon-fillet.png" class="state-img" title="" alt="">
 												<img src="assets/images/fresh-salmon-fillet-hover.png" class="hover-img" title="" alt="">
 											</div>
-											<div class="featur-pro-content pt-0">
-												<h5>Salmon Fish</h5>
-												<div class="row">
-													<div class="col-6 price">$7.32<span class="text-uppercade">/ LB</span></div>
-													<div class="col-6 ps-0">
-														<a href="#" class="btn"><img src="assets/images/shoping-cart.png">Add to Cart</a>
+											<div class="featur-pro-content pt-md-0">
+												<span class="label">new</span>
+												<div class="featur-pro-content-bottom">
+													<h5>Salmon Fish</h5>
+													<div class="row align-items-center">
+														<div class="col-md-6 price mb-md-0 mb-2">$7.32<span class="text-uppercade">/ LB</span></div>
+														<div class="col-md-6 ps-md-0 text-md-end">
+															<a href="#" class="btn"><img src="assets/images/shoping-cart.png">Add to Cart</a>
+														</div>
 													</div>
 												</div>
 											</div>
 										</div>
 									</div>
-									<div class="col-xl-3 col-md-6 mb-md-5 mb-4">
-										<div class="featur-probox">
-											<span class="label">new</span>
+									<div class="col-xl-3 col-lg-3 col-md-6 mb-md-5 mb-4">
+										<div class="featur-probox">											
 											<div class="img-wrapper">
 												<img src="assets/images/fresh-salmon-fillet.png" class="state-img" title="" alt="">
 												<img src="assets/images/fresh-salmon-fillet-hover.png" class="hover-img" title="" alt="">
 											</div>
-											<div class="featur-pro-content pt-0">
-												<h5>Salmon Fish</h5>
-												<div class="row">
-													<div class="col-6 price">$7.32<span class="text-uppercade">/ LB</span></div>
-													<div class="col-6 ps-0">
-														<a href="#" class="btn"><img src="assets/images/shoping-cart.png">Add to Cart</a>
+											<div class="featur-pro-content pt-md-0">
+												<span class="label">new</span>
+												<div class="featur-pro-content-bottom">
+													<h5>Salmon Fish</h5>
+													<div class="row align-items-center">
+														<div class="col-md-6 price mb-md-0 mb-2">$7.32<span class="text-uppercade">/ LB</span></div>
+														<div class="col-md-6 ps-md-0 text-md-end">
+															<a href="#" class="btn"><img src="assets/images/shoping-cart.png">Add to Cart</a>
+														</div>
 													</div>
 												</div>
 											</div>
 										</div>
 									</div>
-									<div class="col-xl-3 col-md-6 mb-md-5 mb-4">
-										<div class="featur-probox">
-											<span class="label">new</span>
+									<div class="col-xl-3 col-lg-3 col-md-6 mb-md-5 mb-4">
+										<div class="featur-probox">											
 											<div class="img-wrapper">
 												<img src="assets/images/fresh-salmon-fillet.png" class="state-img" title="" alt="">
 												<img src="assets/images/fresh-salmon-fillet-hover.png" class="hover-img" title="" alt="">
 											</div>
-											<div class="featur-pro-content pt-0">
-												<h5>Salmon Fish</h5>
-												<div class="row">
-													<div class="col-6 price">$7.32<span class="text-uppercade">/ LB</span></div>
-													<div class="col-6 ps-0">
-														<a href="#" class="btn"><img src="assets/images/shoping-cart.png">Add to Cart</a>
+											<div class="featur-pro-content pt-md-0">
+												<span class="label">new</span>
+												<div class="featur-pro-content-bottom">
+													<h5>Salmon Fish</h5>
+													<div class="row align-items-center">
+														<div class="col-md-6 price mb-md-0 mb-2">$7.32<span class="text-uppercade">/ LB</span></div>
+														<div class="col-md-6 ps-md-0 text-md-end">
+															<a href="#" class="btn"><img src="assets/images/shoping-cart.png">Add to Cart</a>
+														</div>
 													</div>
 												</div>
 											</div>
@@ -391,74 +424,82 @@
 								</div>
 							</div>
 							<div class="tab-pane fade" id="GefilteFish" role="tabpanel" aria-labelledby="GefilteFish-tab">
-								<div class="row mb-lg-5">
-									<div class="col-xl-3 col-md-6 mb-md-5 mb-4">
-										<div class="featur-probox">
-											<span class="label">new</span>
+								<div class="row mb-xl-5 mb-4">
+									<div class="col-xl-3 col-lg-3 col-md-6 mb-md-5 mb-4">
+										<div class="featur-probox">											
 											<div class="img-wrapper">
 												<img src="assets/images/fresh-salmon-fillet.png" class="state-img" title="" alt="">
 												<img src="assets/images/fresh-salmon-fillet-hover.png" class="hover-img" title="" alt="">
 											</div>
-											<div class="featur-pro-content pt-0">
-												<h5>Salmon Fish</h5>
-												<div class="row">
-													<div class="col-6 price">$7.32<span class="text-uppercade">/ LB</span></div>
-													<div class="col-6 ps-0">
-														<a href="#" class="btn"><img src="assets/images/shoping-cart.png">Add to Cart</a>
+											<div class="featur-pro-content pt-md-0">
+												<span class="label">new</span>
+												<div class="featur-pro-content-bottom">
+													<h5>Salmon Fish</h5>
+													<div class="row align-items-center">
+														<div class="col-md-6 price mb-md-0 mb-2">$7.32<span class="text-uppercade">/ LB</span></div>
+														<div class="col-md-6 ps-md-0 text-md-end">
+															<a href="#" class="btn"><img src="assets/images/shoping-cart.png">Add to Cart</a>
+														</div>
 													</div>
 												</div>
 											</div>
 										</div>
 									</div>
-									<div class="col-xl-3 col-md-6 mb-md-5 mb-4">
-										<div class="featur-probox">
-											<span class="label">new</span>
+									<div class="col-xl-3 col-lg-3 col-md-6 mb-md-5 mb-4">
+										<div class="featur-probox">											
 											<div class="img-wrapper">
 												<img src="assets/images/fresh-salmon-fillet.png" class="state-img" title="" alt="">
 												<img src="assets/images/fresh-salmon-fillet-hover.png" class="hover-img" title="" alt="">
 											</div>
-											<div class="featur-pro-content pt-0">
-												<h5>Salmon Fish</h5>
-												<div class="row">
-													<div class="col-6 price">$7.32<span class="text-uppercade">/ LB</span></div>
-													<div class="col-6 ps-0">
-														<a href="#" class="btn"><img src="assets/images/shoping-cart.png">Add to Cart</a>
+											<div class="featur-pro-content pt-md-0">
+												<span class="label">new</span>
+												<div class="featur-pro-content-bottom">
+													<h5>Salmon Fish</h5>
+													<div class="row align-items-center">
+														<div class="col-md-6 price mb-md-0 mb-2">$7.32<span class="text-uppercade">/ LB</span></div>
+														<div class="col-md-6 ps-md-0 text-md-end">
+															<a href="#" class="btn"><img src="assets/images/shoping-cart.png">Add to Cart</a>
+														</div>
 													</div>
 												</div>
 											</div>
 										</div>
 									</div>
-									<div class="col-xl-3 col-md-6 mb-md-5 mb-4">
-										<div class="featur-probox">
-											<span class="label">new</span>
+									<div class="col-xl-3 col-lg-3 col-md-6 mb-md-5 mb-4">
+										<div class="featur-probox">											
 											<div class="img-wrapper">
 												<img src="assets/images/fresh-salmon-fillet.png" class="state-img" title="" alt="">
 												<img src="assets/images/fresh-salmon-fillet-hover.png" class="hover-img" title="" alt="">
 											</div>
-											<div class="featur-pro-content pt-0">
-												<h5>Salmon Fish</h5>
-												<div class="row">
-													<div class="col-6 price">$7.32<span class="text-uppercade">/ LB</span></div>
-													<div class="col-6 ps-0">
-														<a href="#" class="btn"><img src="assets/images/shoping-cart.png">Add to Cart</a>
+											<div class="featur-pro-content pt-md-0">
+												<span class="label">new</span>
+												<div class="featur-pro-content-bottom">
+													<h5>Salmon Fish</h5>
+													<div class="row align-items-center">
+														<div class="col-md-6 price mb-md-0 mb-2">$7.32<span class="text-uppercade">/ LB</span></div>
+														<div class="col-md-6 ps-md-0 text-md-end">
+															<a href="#" class="btn"><img src="assets/images/shoping-cart.png">Add to Cart</a>
+														</div>
 													</div>
 												</div>
 											</div>
 										</div>
 									</div>
-									<div class="col-xl-3 col-md-6 mb-md-5 mb-4">
-										<div class="featur-probox">
-											<span class="label">new</span>
+									<div class="col-xl-3 col-lg-3 col-md-6 mb-md-5 mb-4">
+										<div class="featur-probox">											
 											<div class="img-wrapper">
 												<img src="assets/images/fresh-salmon-fillet.png" class="state-img" title="" alt="">
 												<img src="assets/images/fresh-salmon-fillet-hover.png" class="hover-img" title="" alt="">
 											</div>
-											<div class="featur-pro-content pt-0">
-												<h5>Salmon Fish</h5>
-												<div class="row">
-													<div class="col-6 price">$7.32<span class="text-uppercade">/ LB</span></div>
-													<div class="col-6 ps-0">
-														<a href="#" class="btn"><img src="assets/images/shoping-cart.png">Add to Cart</a>
+											<div class="featur-pro-content pt-md-0">
+												<span class="label">new</span>
+												<div class="featur-pro-content-bottom">
+													<h5>Salmon Fish</h5>
+													<div class="row align-items-center">
+														<div class="col-md-6 price mb-md-0 mb-2">$7.32<span class="text-uppercade">/ LB</span></div>
+														<div class="col-md-6 ps-md-0 text-md-end">
+															<a href="#" class="btn"><img src="assets/images/shoping-cart.png">Add to Cart</a>
+														</div>
 													</div>
 												</div>
 											</div>
@@ -487,26 +528,33 @@
 				</div>
 			</section>
 		</main>
-		<footer  data-aos="fade-up">
-			<div class="footer-top position-relative">
+		<footer data-aos="fade-up">
+			<div class="footer-top position-relative fw-medium">
 				<div class="container">
 				<div class="row">
-					<div class="col-md-4">
-						<a href="#" class="footer-logo mb-lg-4">
+					<div class="col-md-4 footer-logo-wrp">
+						<a href="#" class="footer-logo mb-lg-4 mb-3">
 							<img src="assets/images/logo.svg">
 						</a>
 						<div>
-							<ul class="list-unstyled p-0 m-0">
-								<li><a href="tel:855-222-5555">855-222-5555</a></li>
-								<li><a href="mailto:fishingline@info.com">fishingline@info.com</a></li>
-								<li><a href="https://www.google.co.in/maps/search/715+Mandy+Street,+Manhattan,+NY+05803/@21.2205568,72.8465408,12z">715 Mandy Street, Manhattan, NY 05803</a></li>
+							<ul class="list-unstyled p-0 m-0 contact-detail">
+								<li><a href="tel:855-222-5555"><span class="icon d-md-none d-block"><i class="fas fa-phone-alt"></i></span>855-222-5555</a></li>
+								<li><a href="mailto:fishingline@info.com"><span class="icon d-md-none d-block"><i class="fas fa-envelope"></i></span>fishingline@info.com</a></li>
+								<li><a href="https://www.google.co.in/maps/search/715+Mandy+Street,+Manhattan,+NY+05803/@21.2205568,72.8465408,12z"><span class="icon d-md-none d-block"><i class="fas fa-map-marker-alt"></i></span>715 Mandy Street, Manhattan, <br>NY 05803</a></li>
+								<li class="d-md-block d-none">Copyright © 2021 Fishing Line. All rights reserved.</li>
+							</ul>
+							<ul class="social-icon list-unstyled col-auto mb-0 d-md-none d-block">
+								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+								<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
 							</ul>
 						</div>
 					</div>
-					<div class="col-md-5">
+					<div class="col-md-5 px-0 mb-md-0 mb-3">
 						<div class="row">
 							<div class="col-6">
-								<h6 class="footer-title mb-lg-4">Company</h6>
+								<h6 class="footer-title">Company</h6>
 								<div class="footer-menu">
 									<ul>
 										<li><a href="">About us</a></li>   
@@ -517,7 +565,7 @@
 								</div>
 							</div>
 							<div class="col-6">
-								<h6 class="footer-title mb-lg-4">Support</h6>
+								<h6 class="footer-title">Support</h6>
 								<div class="footer-menu">
 									<ul>
 										<li><a href="">Help center</a></li>      
@@ -529,14 +577,14 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-3 d-flex flex-column align-md-items-end px-md-3 px-0">
 						<h6 class="footer-title">Payment Method</h6>
 						<ul class="d-flex flex-wrap list-unstyled p-0 m-0">
-							<a href="#" class="px-1"><img src="assets/images/gpay.png"></a>
-							<a href="#" class="px-1"><img src="assets/images/express.png"></a>
-							<a href="#" class="px-1"><img src="assets/images/come.png"></a>
-							<a href="#" class="px-1"><img src="assets/images/paypal.png"></a>
-							<a href="#" class="px-1"><img src="assets/images/visa.png"></a>
+							<a href="#" class="px-1 mb-1"><img src="assets/images/gpay.png"></a>
+							<a href="#" class="px-1 mb-1"><img src="assets/images/express.png"></a>
+							<a href="#" class="px-1 mb-1"><img src="assets/images/come.png"></a>
+							<a href="#" class="px-1 mb-1"><img src="assets/images/paypal.png"></a>
+							<a href="#" class="px-1 mb-1"><img src="assets/images/visa.png"></a>
 						</ul>
 					</div>
 				</div>
@@ -545,10 +593,11 @@
 			<div class="footer-bottom">
 				<div class="container">
 					<div class="row align-items-center justify-content-between">
-						<p class="text-white mb-0 col-auto fw-light small">
+						<p class="text-white mb-0 col-12 fw-light small d-md-none d-block mb-md-0 mb-2 text-md-start text-center">
 							Copyright © 2021 Fishing Line. All rights reserved.
 						</p>
-						<ul class="social-icon list-unstyled col-auto mb-0">
+						<div class="col-auto footer-bottom-img text-md-start text-center mx-md-0 mx-auto"><img src="assets/images/footer-bottom-logo.png"></div>
+						<ul class="social-icon list-unstyled col-auto mb-0 d-md-block d-none">
 							<li><a href="#"><i class="fab fa-instagram"></i></a></li>
 							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
 							<li><a href="#"><i class="fab fa-twitter"></i></a></li>

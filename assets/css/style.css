@@ -1192,9 +1192,6 @@ footer .footer-title {
 .about-img-with-txt .img-block {
     padding: 80px 65px 0 0;
 }
-.about-img-with-txt .text-block{
-    margin-top: -110px;
-}
 .about-img-with-txt .bottom-img{
     position: relative;
     margin-left: auto;
@@ -1326,9 +1323,10 @@ footer .footer-title {
     border-radius: 40px;
     color: #fff;
     padding: 95px 240px 55px 75px;
-    background-image: url(../images/quote.svg);
+    background-image: url(../images/qoute.png);
     background-repeat: no-repeat;
-    background-position: 95% 48px;
+    background-position: 91% 85px;
+    background-size: 70px;
 }
 .testimonials-slide .desc p,
 .testimonials-slide .desc h5 {
@@ -1510,6 +1508,7 @@ footer .footer-title {
 .about-feture-pro .slick-prev:before, .about-feture-pro .slick-next:before {
     filter: brightness(0) invert(1);
 }
+
 
 /*category-hero page */
 .category-hero{
@@ -1702,6 +1701,14 @@ display: block;
 .category-pro .category-pro-box.active h3{
     color: #fff;
     transform: translateY(-30px);
+}
+.category-pro-slider .slick-slide{
+    padding-left: 22px;
+    height: inherit !important;
+}
+.category-pro-slider .slick-track{
+    display: flex !important;
+    margin-left: -11px;
 }
 .shop-page .category-pro-box .count{
     font-size: 25px;
@@ -2552,6 +2559,11 @@ input[type=number]::-webkit-outer-spin-button {
     .testimonials .fcircle-shape{
         max-width: 500px;
     }
+    .category-hero .shape-bottom{
+        left: -27%;
+        max-width: 270px;
+    }
+
 }
 @media only screen and (max-width: 1560px){
 	.home-img-with-txt.shape:before,.featur-product.shape:before{
@@ -2577,6 +2589,14 @@ input[type=number]::-webkit-outer-spin-button {
     .about-hero.hero-section .shape-bottom{
         max-width: 290px;
         left: -27%;
+    }
+    .category-hero .shape-bottom {
+        left: -22%;
+        max-width: 200px;
+        top: 20px;
+    }
+    .category-hero {
+        padding: 160px 0 0;
     }
 }
 @media only screen and (max-width: 1440px){
@@ -2672,8 +2692,9 @@ input[type=number]::-webkit-outer-spin-button {
         background-position: 42% 100%;
     }
     .testimonials-slide{
-        background-size: 90px;
         padding: 85px 170px 55px 65px;
+        background-size: 60px;
+        background-position: 92% 60px;
     }
     .instagram.shape:before{
         background-size: 60%;
@@ -2692,6 +2713,15 @@ input[type=number]::-webkit-outer-spin-button {
     }
     .about-img-with-txt {
         margin-top: -60px;
+    }
+    .category-pro .category-pro-box .content {
+        padding: 15px 30px 40px 30px;
+    }
+    .category-pro .category-pro-box h4{
+        font-size: 30px;
+    }
+    .category-pro {
+        padding: 100px 0;
     }
 }
 @media only screen and (max-width: 1366px){
@@ -2770,7 +2800,6 @@ input[type=number]::-webkit-outer-spin-button {
         width: 26px;
     }
     .testimonials-slide {
-        background-size: 70px;
         padding: 65px 170px 55px 55px;
     }
     .testimonials-slide .desc p, .testimonials-slide .desc h5{
@@ -2803,6 +2832,27 @@ input[type=number]::-webkit-outer-spin-button {
     }
     .about-feture-pro .slick-prev {
         right: 50px;
+    }
+    .category-hero {
+        padding: 130px 0 0;
+    }
+    .category-pro {
+        padding: 70px 0;
+    }
+    .category-pro .category-pro-box h4 {
+        font-size: 26px;
+    }
+    .category-page .featur-product.shape:before{
+        background-size: 340px;
+        top: -100px;
+        left: -45px;
+        width: 90px;
+    }
+    .category-page .featur-product {
+        padding: 50px 0;
+    }
+    .category-pro:before{
+        height: calc(100% - 46.7%);
     }
 }
 @media only screen and (max-width: 1199px){
@@ -2977,7 +3027,7 @@ input[type=number]::-webkit-outer-spin-button {
         max-width: 380px;
     }
     .testimonials-slide {
-        background-size: 60px;
+        background-size: 40px;
         padding: 45px 150px 35px 35px;
     }
     .testimonials-slide .desc p, .testimonials-slide .desc h5 {
@@ -3008,6 +3058,34 @@ input[type=number]::-webkit-outer-spin-button {
     }
     .video-sec {
         padding: 80px 0 0;
+    }
+    .category-hero {
+        padding: 110px 0 0;
+    }
+    .category-pro {
+        padding: 50px 0;
+    }
+    .category-pro .category-pro-box .content {
+        padding: 15px 25px 30px 25px;
+    }
+    .category-pro:before {
+        height: calc(100% - 46.9%);
+    }
+    .category-page .featur-product {
+        padding: 40px 0;
+    }
+    .category-hero .fcircle-shape{
+        top: -90px;
+    }
+    .breadcrumb .breadcrumb-item{
+        font-size: 18px;
+    }
+    .breadcrumb{
+        background-size: 26px;
+        padding: 0 0 0 42px;
+    }
+    .category-pro .category-pro-box h4 {
+        font-size: 22px;
     }
 }
 @media only screen and (max-width: 991px){
@@ -3141,6 +3219,41 @@ input[type=number]::-webkit-outer-spin-button {
     .instagram.shape:before{
         height: 64px;
         width: 74px;
+    }
+    .category-hero {
+        padding: 90px 0 0;
+    }
+    .category-hero .shape-bottom{
+        height: 70px;
+        max-width: 150px;
+    }
+    .breadcrumb .breadcrumb-item{
+        font-size: 16px;
+    }
+    .breadcrumb {
+        background-size: 24px;
+        padding: 0 0 0 40px;
+    }
+    .category-pro {
+        padding: 40px 0 50px;
+    }
+    .category-pro .category-pro-box h4 {
+        font-size: 20px;
+    }
+    .category-pro .category-pro-box .img-box {
+        margin-top: -150px;
+        padding-top: 95%;
+    }
+    .category-pro .category-pro-box{
+        border-radius: 22px;
+        margin-top: 150px;
+        height: calc(100% - 150px);
+    }
+    .category-pro .category-pro-box .content {
+        padding: 15px 20px 30px 20px;
+    }
+    .category-page .featur-product {
+        padding: 20px 0 30px;
     }
 }
 @media only screen and (max-width: 767px){
@@ -3468,7 +3581,7 @@ input[type=number]::-webkit-outer-spin-button {
         padding: 12px 20px;
     }
     .newsletter {
-        padding: 50px 0 30px;
+        padding: 40px 0 30px;
         background-image: none;
     }
     .footer-top {
@@ -3547,31 +3660,195 @@ input[type=number]::-webkit-outer-spin-button {
         padding-right: 0;
     }
     .about-hero .fcircle-shape{
-        max-width: 100%;
-        left: -175px;
+        max-width: 300px;
+        left: -135px;
         top: 18%;
     }
     .about-img-with-txt .text-block {
         margin-top: 0;
+        padding: 35px 0 0;
     }
     .about-img-with-txt:before{
-        display: none;
+        height: 48%;
+        top: auto;
+        bottom: 0;
+        border-radius: 0 20px 20px 0;
+        background-position: right bottom;
+        background-size: cover;
     }
     .about-hero .hero-img {
-        padding: 0 0 70px;
+        padding: 0 0 60px;
     }
     .about-hero .hero-img:before {
         content: "";
         background-image: url(../images/about-bg.png);
         background-color: #0055B8;
         bottom: 0;
-        height: 50%;
+        height: 63%;
         width: calc(100% + 80px);
         left: -40px;
         background-position: -80px -38px;
         background-repeat: no-repeat;
         position: absolute;
         z-index: -1;
+    }
+    .about-hero.hero-section .shape-bottom{
+        height: 60px;
+        bottom: 120px;
+    }
+    .about-img-with-txt .img-block {
+        padding: 60px 0 0 0;
+    }
+    .video-sec .video-wrapper img {
+        border-radius: 13px;
+    }
+    .video-sec .icon {
+        transform: translate(-50%,-50%) scale(0.7);
+    }
+    .service-box .icon {
+        width: 66px;
+        height: 66px;
+        line-height: 66px;
+    }
+    .service-box .icon img {
+        max-width: 40px;
+        max-height: 30px;
+    }
+    .service .col-md-4{
+        margin-top: 30px !important;
+    }
+    .service.shape:before {
+        background-size: 41%;
+        background-position: left 35%;
+    }
+    .testimonials-slide {
+        background-size: 40px;
+        padding: 90px 35px 65px 35px;
+        background-position: 76% 13%;
+        border-radius: 0;
+    }
+    .testimonials {
+        padding: 150px 0 0;
+    }
+    .testimonials .container{
+        padding: 0;
+        z-index: 1;
+        position: relative;
+    }
+    .testimonials .testimonial-bg{
+        width: calc(100% - 35px);
+        height: 64%;
+    }
+    .testimonials.shape:before {
+        background-size: 70%;
+        top: 0;
+        right: auto;
+        left: 0;
+        background-position: left 80px;
+        z-index: 1;
+        height: 180px;
+    }
+    .testimonials-slider .slick-dots {
+        right: 0;
+        left: 0;
+        bottom: 30px;
+    }
+    .testimonials-slider .slick-dots li button {
+        height: 10px;
+        width: 10px;
+    }
+    .testimonials-slider .slick-dots li button:hover, .testimonials-slider .slick-dots li.slick-active button {
+        height: 16px;
+        width: 16px;
+    }
+    .instagram-slider img {
+        border-radius: 0;
+        width: 100%;
+    }
+    .instagramn-slider .slick-list {
+        margin: 0;
+    }
+    .instagram {
+        padding: 35px 0 0;
+    }
+    .instagram.shape:before {
+        height: 114px;
+        width: 110px;
+        bottom: -40px;
+        z-index: 1;
+        left: 20px;
+    }
+    .about-feture-pro{
+        z-index: 0;
+            margin-bottom: 0;
+    }
+    .about-feture-pro .feture-service {
+        max-width: 280px;
+        margin: 0 auto;
+    }
+    .feture-service li:not(:last-child) {
+        margin-bottom: 15px;
+    }
+    .about-feture-pro:before,.about-feture-pro:after{
+            width: 100%;
+        height: 50%;
+            background-size: 240%;
+        background-position: 44% -100px;
+    }
+    .about-feture-pro .slick-prev {
+        right: auto;
+        left: -30px;
+    }
+    .about-feture-pro .slick-arrow {
+        right: -30px;
+    }
+    .about-feture-pro .slick-arrow {
+        right: -30px;
+        top: 51.8%;
+        transform: translateY(-50%);
+        background-color: #fff;
+    }
+    .about-feture-pro .slick-arrow:before{
+        filter: none;
+    }
+    .about-feture-pro-slider .text-block {
+        padding-top: 40px;
+        padding-bottom: 34px;
+    }
+    .about-feture-pro-wrap:after{
+        display: none;
+    }
+    .about-feture-pro-slider .slick-dots {
+        bottom: 305px;
+    }
+    .about-feture-pro-slider .slick-dots li button:hover, .about-feture-pro-slider .slick-dots li.slick-active button{
+        height: 16px;
+        width: 16px;
+        background-color: #FCDC3E;
+    }
+    .about-feture-pro-slider .slick-dots li button {
+        height: 10px;
+        width: 10px;
+    }
+    .about-feture-pro-slider .text-block:first-child{
+        padding-bottom: 0;
+        height: 298px;
+        overflow-y: auto;
+        margin: 0 0 25px;
+    }
+    .testimonials .fcircle-shape {
+        max-width: 100%;
+        right: -190px;
+        left: auto;
+        background-position: right -110px;
+        top: -76%;
+    }
+    .video-sec:before{
+            background-size: 80%;
+        background-position: right bottom;
+            right: -65px;
+        bottom: -65px;
+        top: auto;
     }
 }
 @media only screen and (max-width: 575px){

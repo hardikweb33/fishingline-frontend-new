@@ -35,8 +35,16 @@ $( document ).ready(function() {
     arrows: true,
     infinite: false,
     slidesToShow: 5,
-    slidesToScroll: 1
+    slidesToScroll: 1,
     // autoplay: true
+    responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1
+      }
+    }
+  ]
   });
 
   $('.testimonials-slider').slick({
@@ -54,6 +62,30 @@ $( document ).ready(function() {
     slidesToShow: 1,
     slidesToScroll: 1,
     // autoplay: true
+    responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        dots: true,
+      }
+    }
+  ]
+  });
+  $('.category-pro-slider').slick({
+    dots: false,
+    arrows: false,
+    infinite: false,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    // autoplay: true
+    responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+
+      }
+    }
+  ]
   });
   $('.product-gallary-slider').slick({
     dots: true,
