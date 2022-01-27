@@ -91,6 +91,8 @@ $( document ).ready(function() {
       breakpoint: 576,
       settings: {
       slidesToShow: 1,
+      centerMode: true,
+      centerPadding: '60px',
       }
     }
   ]
