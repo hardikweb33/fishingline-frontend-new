@@ -2663,7 +2663,7 @@ input[type=number]::-webkit-outer-spin-button {
     .menu:after{content: "";position: absolute;top: 0;left: 0;height: 100%;width: calc(100% + 120px);border-radius: 0px 0 337px 0px;z-index: -2;background-color: #0045AB;    }
     .menu-wraper{margin: 120px 40px;height: calc(100vh - 260px);overflow-y: auto; }
     .menu-close {position: absolute;top: 0;right: 0;color: #fff;background-color: #0055b8;padding: 5px 12px;border-radius: 0 0 0 5px;font-size: 16px;display: block;    }
-    html.menu-open, html.menu-open body{overflow: hidden;position: relative; touch-action: none;-ms-touch-action: none;}
+    html.menu-open, html.menu-open body{overflow: hidden;position: relative; touch-action: none;-ms-touch-action: none;height:100%;}
     .menu .menu-wraper ul li{display: block;margin-bottom: 20px; }
     .menu .menu-wraper ul li a{font-size: 25px;letter-spacing: -0.63px;padding-bottom: 0;color: #fff;    }
     .about-header .menu .menu-wraper ul li a{color: #fff;}
